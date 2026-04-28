@@ -1,0 +1,16 @@
+{
+  "name": "netlify-proxy",
+  "version": "1.0.0",
+  "description": "A minimal, robust proxy server on Netlify",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/functions": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
+}
